@@ -77,7 +77,7 @@ public static IActionResult GetUtilities(
     string table = "<table style=\"margin:0 auto;\">";
 
     // creation of titles of colums
-    table += "<tr style=\"background: #1b4965;color: white;\"><th colspan=\"2\">Cooking Gas</th><th colspan=\"2\">Electricity</th><th colspan=\"2\">Water</th></tr>";
+    table += "<tr style=\"background: #1b4965;color: white;\"><th colspan=\"2\">Cooking Gass</th><th colspan=\"2\">Electricity</th><th colspan=\"2\">Water</th></tr>";
 
     table +="<tr style=\"background: #1b4965;color: white;\"><th style=\"width: 100px; text-align: center;\">Flat A</th><th style=\"width: 100px; text-align: center;\">Flat B</th><th style=\"width: 100px; text-align: center;\"> Flat A</th><th style=\"width: 100px; text-align: center;\">Flat B</th><th style=\"width: 100px; text-align: center;\">Flat A</th><th style=\"width: 100px; text-align: center;\">Flat B</th></tr>";
 

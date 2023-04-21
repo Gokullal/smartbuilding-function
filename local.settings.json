@@ -1,0 +1,10 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=iottriggerv1;AccountKey=2KbuvcxEgT9zPbhogZDh+Pp39Pgo+T/L7VQeo2fdzZTHBllpnKqEHR1nfBNEY/TyJQkz8RGcK4De+AStmO9hdw==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "AzureEventHubConnectionString": "Endpoint=sb://ihsuprodlnres019dednamespace.servicebus.windows.net/;SharedAccessKeyName=iothubowner;SharedAccessKey=yPBNwEMOXcd65Ikip1FU8yDX71jjm9pg4r5rSMBBaRU=;EntityPath=iothub-ehub-smartbuild-24940426-ccce14a27b",
+"cosmosDBConnectionString": "AccountEndpoint=https://smartbuildingdan.documents.azure.com:443/;AccountKey=iDni8Pk3sWuSQ4abvhIa4pgLMVnQImCXig6E3Pzn6fD2Pq3VoI6ihymFjV9fK6xjF9bhMANPj9q3ACDbdUS8DA==;"
+
+  }
+}

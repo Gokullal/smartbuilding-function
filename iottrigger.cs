@@ -1,4 +1,3 @@
-// some changes where made according to the workshop 5 https://cmp9785m-cloud-development-2023.github.io/CloudDevelopment/workshop5.html
 using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
@@ -29,7 +28,8 @@ namespace iot.trigger
     public double flat_b_Electricity {get; set;}
     public double flat_b_Water {get; set;}
   }
-
+// The code was downloaded and modified from  workshop 5 https://cmp9785m-cloud-development-2023.github.io/CloudDevelopment/workshop5.html
+// The below code sends data to the Cosmos DB
     public class iottrigger
     {
         private static HttpClient client = new HttpClient();
@@ -63,7 +63,8 @@ output = new UtilityItem
 
             
             }
-
+// The below code was taken from workshop 6 https://cmp9785m-cloud-development-2023.github.io/CloudDevelopment/workshop6.html
+// This code snippet create an HTTTP trigger which will select latest data from cosmosDB using sql quries and tranfer the data in an HTML table format
         [FunctionName("GetUtilities")]
 public static IActionResult GetUtilities(
     [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "utilities/")] HttpRequest req,
@@ -93,8 +94,7 @@ public static IActionResult GetUtilities(
     return new ContentResult
     {
         Content = table,
-        ContentType = "text/html",
-        StatusCode = 200
+        ContentType = "text/html"
     };
 }
 
